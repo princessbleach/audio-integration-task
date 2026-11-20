@@ -1,0 +1,154 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{F07ACEF3-9C4A-4698-95C6-E0A62F053157}",
+    "Language": "SFX",
+    "Hash": "{2E6DBDB0-CA09-23B1-0D3E-E30FF1A13437}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "153486276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_31.wav",
+      "CachePath": "26/{26B76729-B52D-5C98-7C50-AFB0FB463AA5}.wem"
+     },
+     {
+      "Id": "158307454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_DGF_fx_foley_footstep_water_shallow_walk_puddle_splash_surface_wet_11.wav",
+      "CachePath": "A4/{A4DD3C08-4D0E-1878-FE5D-1670337C77DA}.wem"
+     },
+     {
+      "Id": "262801988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_8.wav",
+      "CachePath": "04/{0447A2A3-331B-78AD-2B82-AE44EFDCC572}.wem"
+     },
+     {
+      "Id": "369709535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ESM_GF_fx_dirt_one_shots_footstep_sneakers_walking_dry_crunchy_exterior_17.wav",
+      "CachePath": "45/{45B91A18-19F8-3C74-4E15-4DA01EDDA047}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1602358412",
+      "Name": "Play_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footstep",
+      "GUID": "{66835EA3-7DB4-44DD-8FA8-2AF68B6B0F8A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.32961017",
+      "DurationMax": "0.4791529",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "1216965916",
+         "GUID": "{B5F94B3E-BFE8-45A1-AB25-7544B2BE1E50}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "262801988"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2058049674",
+         "GUID": "{F6692B89-EB18-4873-B48F-8BA5809DAEB5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "153486276"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "4248645337",
+         "GUID": "{110CC7DE-6E32-437F-99DF-1FB88429F70A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "369709535"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "63790334",
+         "Id": "2654748154",
+         "GUID": "{871CF6E4-1C3A-40CA-AD95-1A00280AA48E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "158307454"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "63790334",
+      "Name": "SurfaceType",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType",
+      "GUID": "{EB4E7D6B-342A-4A88-A3D3-B3D8BA3F95AD}",
+      "Switches": [
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Stone",
+        "GUID": "{B5F94B3E-BFE8-45A1-AB25-7544B2BE1E50}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Wood",
+        "GUID": "{F6692B89-EB18-4873-B48F-8BA5809DAEB5}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Water",
+        "GUID": "{871CF6E4-1C3A-40CA-AD95-1A00280AA48E}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceType\\Grass",
+        "GUID": "{110CC7DE-6E32-437F-99DF-1FB88429F70A}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D49C3AF0-EE75-1E49-B81D-FA4869EC086F}"
+ }
+}

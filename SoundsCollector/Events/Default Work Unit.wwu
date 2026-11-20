@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{599415DE-DEFC-4F75-9F1F-3184FC300CFB}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{599415DE-DEFC-4F75-9F1F-3184FC300CFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{66835EA3-7DB4-44DD-8FA8-2AF68B6B0F8A}">
+					<ChildrenList>
+						<Action Name="" ID="{1F7BFA3B-F6E5-4FFD-8444-1BFE2A4F7DD0}" ShortID="829613704">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{345C1E97-2E0D-45CF-BE4B-CB34DB2B9771}" WorkUnitID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{39EC882B-7134-4CDA-8BBB-B7EBD02728E4}">
+					<ChildrenList>
+						<Action Name="" ID="{D428DAA0-2375-46EA-91FA-B18C9523CA30}" ShortID="1020507992">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{33782975-D558-4BFD-BBCA-37B6B00CF4A0}" WorkUnitID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pickup" ID="{B5E997F9-523A-404D-9C23-10F6B1E0CB65}">
+					<ChildrenList>
+						<Action Name="" ID="{6100B912-D05C-4902-900D-F985EE6F8E64}" ShortID="434919531">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pickup" ID="{9F5F87D9-AD8E-4F2E-8D1D-AD792214C5C7}" WorkUnitID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Victory" ID="{8F36BF5B-A26D-49F8-92DF-71FD8592B415}">
+					<ChildrenList>
+						<Action Name="" ID="{A13A000A-562D-44E6-9740-225796A681D6}" ShortID="861932393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{6A74DD12-7D98-49FD-82E7-7F8AEE8F69F1}" WorkUnitID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

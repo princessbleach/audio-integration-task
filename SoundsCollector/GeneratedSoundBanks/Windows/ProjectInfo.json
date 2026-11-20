@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "SoundsCollector",
+   "GUID": "{C1909DAE-B255-491E-B5B8-376F222E8B3F}",
+   "Generator": "2025.1.11.9262"
+  },
+  "CacheRoot": "../../.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{C948D829-98C0-4546-84ED-3A1B9AEF70D1}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../Assets/StreamingAssets/Audio/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{5F8FE005-E8DA-46E6-A516-58E31B850CBC}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{37612D5D-3222-F8C3-4F47-FF7458F73C5B}"
+ }
+}

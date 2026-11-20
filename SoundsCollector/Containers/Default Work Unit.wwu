@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{BD76E761-ED76-4DF5-B30A-70FC49DCC2B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="Footsteps" ID="{345C1E97-2E0D-45CF-BE4B-CB34DB2B9771}" ShortID="691397761">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="SurfaceType" ID="{EB4E7D6B-342A-4A88-A3D3-B3D8BA3F95AD}" WorkUnitID="{F29E29E3-23B1-4043-AA1F-B359D3E39141}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Footstep_Grass" ID="{20704B7F-61BA-46DF-8CFB-ADE71B9D74D7}" ShortID="271077616">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{07009450-D5D3-41F2-91AC-BE46BD44BB36}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="21"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{4D8B2829-AC19-4B90-9FD4-BCD9F381CBE2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="125"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_GF_fx_dirt_one_shots_footstep_sneakers_walking_dry_crunchy_exterior_17" ID="{EB5F5DD1-290A-44AA-8643-0D016F156DB6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.02957"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.087"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0638"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.50245"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_GF_fx_dirt_one_shots_footstep_sneakers_walking_dry_crunchy_exterior_17.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="369709535"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_GF_fx_dirt_one_shots_footstep_sneakers_walking_dry_crunchy_exterior_17" ID="{EB5F5DD1-290A-44AA-8643-0D016F156DB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep_Stone" ID="{E7312090-6064-42F4-8D81-A1173B2A75DE}" ShortID="603419982">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{965F9033-BF17-41CB-A968-7829DA84725D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="350"/>
+													<Property Name="Min" Type="Real64" Value="-225"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_8" ID="{B92A728B-680A-4865-9BD4-AEE2E7D675C5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00543"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.16093"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.05391"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_8.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="262801988"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_8" ID="{B92A728B-680A-4865-9BD4-AEE2E7D675C5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep_Wood" ID="{5B0D2CDD-4616-46F5-817E-48E7B2AABEB1}" ShortID="1070291108">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9163689F-A2F1-4E0D-B987-96FCED428709}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="13"/>
+													<Property Name="Min" Type="Real64" Value="-21"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CE5E09BB-4203-424B-8A52-08E5CAE25662}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="125"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_31" ID="{328461EF-98D6-4E13-9BB3-B1971C08EB45}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0152"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.05412"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.01544"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_31.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="153486276"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_GF_fx_cobblestone_one_shots_footstep_boots_dry_interior_31" ID="{328461EF-98D6-4E13-9BB3-B1971C08EB45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Footstep_Water" ID="{8ABD1F15-957E-4BB3-A868-9EDD9965E844}" ShortID="657507014">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>13</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D91905A5-D874-453D-AB2B-17837360AB9C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="13"/>
+													<Property Name="Min" Type="Real64" Value="-8"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{63B96378-EC3F-402F-8F70-79CE4C83627C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="225"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ESM_DGF_fx_foley_footstep_water_shallow_walk_puddle_splash_surface_wet_11" ID="{83991515-7F45-4A17-8183-337D0A144BBD}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.06471"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.09965"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.03197"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.45545"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ESM_DGF_fx_foley_footstep_water_shallow_walk_puddle_splash_surface_wet_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="158307454"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ESM_DGF_fx_foley_footstep_water_shallow_walk_puddle_splash_surface_wet_11" ID="{83991515-7F45-4A17-8183-337D0A144BBD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Water" ID="{8ABD1F15-957E-4BB3-A868-9EDD9965E844}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Grass" ID="{20704B7F-61BA-46DF-8CFB-ADE71B9D74D7}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Stone" ID="{E7312090-6064-42F4-8D81-A1173B2A75DE}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Footstep_Wood" ID="{5B0D2CDD-4616-46F5-817E-48E7B2AABEB1}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{B5F94B3E-BFE8-45A1-AB25-7544B2BE1E50}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Stone" ID="{E7312090-6064-42F4-8D81-A1173B2A75DE}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wood" ID="{F6692B89-EB18-4873-B48F-8BA5809DAEB5}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Wood" ID="{5B0D2CDD-4616-46F5-817E-48E7B2AABEB1}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Grass" ID="{110CC7DE-6E32-437F-99DF-1FB88429F70A}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Grass" ID="{20704B7F-61BA-46DF-8CFB-ADE71B9D74D7}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Water" ID="{871CF6E4-1C3A-40CA-AD95-1A00280AA48E}"/>
+								<ItemList>
+									<ItemRef Name="Footstep_Water" ID="{8ABD1F15-957E-4BB3-A868-9EDD9965E844}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<Sound Name="Pickup" ID="{9F5F87D9-AD8E-4F2E-8D1D-AD792214C5C7}" ShortID="1073739550">
+					<PropertyList>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{DBAF2201-758A-498F-8A40-F0CC4064AD1F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="400"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="D_select_SFX" ID="{47742B72-DE86-42A4-94D0-3F75D511EF97}">
+							<Language>SFX</Language>
+							<AudioFile>D_select_SFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="54893328"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="D_select_SFX" ID="{47742B72-DE86-42A4-94D0-3F75D511EF97}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Victory" ID="{6A74DD12-7D98-49FD-82E7-7F8AEE8F69F1}" ShortID="484501246">
+					<PropertyList>
+						<Property Name="IsStreamingEnabled" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="D_charmequip_SFX" ID="{C2264B31-C45D-47B7-8963-860F37FC154C}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.33908"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>D_charmequip_SFX.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="314734531"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="D_charmequip_SFX" ID="{C2264B31-C45D-47B7-8963-860F37FC154C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Music" ID="{33782975-D558-4BFD-BBCA-37B6B00CF4A0}" ShortID="69112974">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F36BDBBA-CB26-41A9-8A77-1E4779E9F70E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{62844EFF-44ED-4B56-82EC-9B42B479AF76}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="frutiger aero main (1)" ID="{8E9AAF3A-E850-4A62-9F47-1E23EEB69F30}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="3.33315"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.56245"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>frutiger aero main (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="740593369"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="frutiger aero main (1)" ID="{8E9AAF3A-E850-4A62-9F47-1E23EEB69F30}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
