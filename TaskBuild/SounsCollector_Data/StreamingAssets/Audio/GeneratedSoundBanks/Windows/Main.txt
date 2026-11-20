@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1602358412	Play_Footstep			\Default Work Unit\Play_Footstep	
+	2453267296	Play_Victory			\Default Work Unit\Play_Victory	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3860455926	Play_Pickup			\Default Work Unit\Play_Pickup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	SurfaceType			
+	2058049674	Wood	SurfaceType			
+	2654748154	Water	SurfaceType			
+	4248645337	Grass	SurfaceType			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	153486276	Footstep_Wood	.cache\26\{26B76729-B52D-5C98-7C50-AFB0FB463AA5}.wem		\Containers\Default Work Unit\Footsteps\Footstep_Wood		68120
+	158307454	Footstep_Water	.cache\A4\{A4DD3C08-4D0E-1878-FE5D-1670337C77DA}.wem		\Containers\Default Work Unit\Footsteps\Footstep_Water		81404
+	262801988	Footstep_Stone	.cache\04\{0447A2A3-331B-78AD-2B82-AE44EFDCC572}.wem		\Containers\Default Work Unit\Footsteps\Footstep_Stone		80880
+	369709535	Footstep_Grass	.cache\45\{45B91A18-19F8-3C74-4E15-4DA01EDDA047}.wem		\Containers\Default Work Unit\Footsteps\Footstep_Grass		84316
+	740593369	Music	.cache\66\{66C0D1F0-FCDB-2F31-B4AB-FEF7583E50DA}.wem		\Containers\Default Work Unit\Music		19183200
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	54893328	Pickup	.cache\AA\{AA5D2AF9-E76E-9D43-833C-AD4D82574A73}.wem	54893328.wem	\Containers\Default Work Unit\Pickup	
+	314734531	Victory	.cache\E8\{E863983E-A094-F2FF-8A59-F2719ACA7547}.wem	314734531.wem	\Containers\Default Work Unit\Victory	
+
